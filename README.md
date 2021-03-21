@@ -37,10 +37,8 @@ Copyright (c) 2021 Basilio Carrero Nevado
     java -jar antlr-4.9.2-complete.jar -Dlanguage=Python3 -visitor pyPlSqlParser.g4
     ```
 
-3. Implement your own listener/visitor classes in **sampleParserDriver.py**
-
-4. Run It!:
+3. Run It!:
 
     ```bash
-    python sampleParserDriver.py <myPLSQLfile.pls>
+    python funCallFinder.py ./examples-sql-script/anonymous_block.sql
     ```
