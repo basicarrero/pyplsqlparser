@@ -19,7 +19,7 @@ Copyright (c) 2021 Basilio Carrero Nevado
 + Python modules:
 
     ```bash
-    pip install antlr4-python3-runtime
+    pip install antlr4-python3-runtime pandas 
     ```
 
 ## Usage
@@ -40,5 +40,5 @@ Copyright (c) 2021 Basilio Carrero Nevado
 3. Run It!:
 
     ```bash
-    python funCallFinder.py ./examples-sql-script/anonymous_block.sql
+    python funCallFinderPandas.py ./examples-sql-script/anonymous_block.sql
     ```
